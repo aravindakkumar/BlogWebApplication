@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+.post{
+    padding: 5% 8%;
+}
+.post img{
+    float: right;
+border-radius: 70px;
+width: 50%;
+
+}
+
+.postedBy{
+    display: flex;
+    justify-content: space-around;
+    padding: 20px 30px;
+}
+.actualText{
+    color: rgb(212, 204, 204);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+
+.content h1{
+    margin: 20px 0;
+    text-align: left;
+    color: aliceblue;
+    font-family: 'Josefin Sans', sans-serif;
+    font-stretch: expanded;
+    line-height: 1.3;
+}
+.content p{
+    margin: 30px 0;
+    text-align: left;
+    color: aliceblue;
+        font-family: 'Josefin Sans', sans-serif;
+        line-height: 1.3;
+    font-size: x-large;
+}
+
+.comments{
+    padding: 40px;
+    background-color: aliceblue;
+    width: 70%;
+    margin: 0 auto;
+    border-radius: 30px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+.comments:hover{
+        box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.buttonSubmit{
+    margin: 10px 0;
+}
+
+.commentss{
+    background-color: aliceblue;
+    padding: 20px;
+    width: 70%;
+    margin: 30px auto;
+        border-radius: 30px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+
+.onet{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.btn{
+    border: none;
+    color: red;
+
+    float: right;
+    cursor: pointer;
+    margin-right: 20px;
+    border-radius: 30px;
+
+
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+.btn:hover{
+    background-color: red;
+    color: white;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.h1111{
+    background-color: aliceblue;
+    border-radius: 20px;
+    text-align: center;
+    width: 30%;
+    color: red;
+    margin: 0 auto;
+}

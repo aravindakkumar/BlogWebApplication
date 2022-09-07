@@ -1,0 +1,25 @@
+.form3{
+    background: aliceblue;
+    padding: 50px 30px;
+    border-radius: 30px;
+    position: sticky;
+    top: 250px;
+
+    font-family: sans-serif;
+    font-size: medium;
+}
+
+.textfld{
+    margin: 20px 10px;
+}
+.fileInput{
+    margin: 0 0 20px;
+}
+
+.h1 {
+    margin: 25px;
+    
+    color: aliceblue;
+    font-family: 'Inconsolata', monospace;
+
+}
